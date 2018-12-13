@@ -1,0 +1,156 @@
+/*/// Styling index page //*/
+
+#logInLogo {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}
+
+#homeLogo {
+    display: block;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}
+
+body {
+    background-color: #6ECEB2;
+}
+
+#logInArea {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    background-color: #B2E8D8;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+
+}
+
+input[type="psw"] {
+    -webkit-text-security: disc !important;
+}
+
+input[type=text] {
+    margin-top: 25px;
+}
+
+input {
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#forgot {
+    font-size: 13px;
+    margin-right: 40px;
+}
+
+#log {
+    background-color: #75BFAA;
+    border-radius: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 100px;
+
+}
+
+#lang {
+    margin-right: 150px;
+    border: none;
+    background-color: #B2E8D8;
+    font-size: 15px;
+
+
+}
+
+/* Styling links usign the correct order of LoVeHAte */
+a:link {
+    color: #000;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    transition: background-color 1.3s ease;
+
+}
+
+a:visited {
+    background-color: #E0E0E0; 
+}
+
+a:hover {
+    background-color: #fff;
+}
+
+a:active {
+    background-color: #A9AAAA;
+}
+
+/*/// Navigation ///*/
+#menu {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    margin: 0 0 0 10px;
+    font-size: 2em;
+
+}
+
+.current {
+    background-color: #fff;
+
+}
+
+a {
+    color: #000;
+    display: block;
+    width: 100%;
+    background-color: #B2E8D8;
+    text-align: center;
+    font-size: 1.3em;
+
+}
+
+.menu {
+    display: none;
+    overflow: hidden;
+}
+
+input:checked ~ nav {
+    display: block;
+    position: absolute;
+
+}
+
+/*/// Styling home page ///*/
+#news {
+    background-color: #B2E8D8;
+    border-radius: 10px 10px 10px 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    font-family: Helvetica Neue;
+    font-size: 20pt;
+}
+
+p {
+    padding: 5px;
+    font-family: Helvetica Neue LT Std;
+    font-size: 10pt;
+}
